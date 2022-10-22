@@ -26,16 +26,16 @@ cd ..
 terraform init
 ```
 ### **Execute Terraform**
-1. Go to root folder then preview changes with command below
+1. Go to root folder then preview changes with command below(add environment you want to create: dev, qa, prod)
 ```
 terraform plan
 ```
-2. To apply, type command below
+2. To apply, type command below(add environment you want to create: dev, qa, prod)
 ```
-terraform apply -input=false -auto-approve
+terraform apply
 ```
 3. Check in your AWS Console GUI, don't forget to change region to *ap-southeast-1*
-4. To destroy infrastructore, type command below
+4. To destroy infrastructore, type command below(add environment you want to create: dev, qa, prod)
 ```
-terraform destroy -input=false -auto-approve
+terraform destroy
 ```
