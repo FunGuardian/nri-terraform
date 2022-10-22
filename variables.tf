@@ -43,3 +43,7 @@ variable "security_group" {
     }
   }
 }
+
+variable "environment_name" {
+
+}
